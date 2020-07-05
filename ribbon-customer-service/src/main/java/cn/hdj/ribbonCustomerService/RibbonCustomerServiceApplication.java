@@ -29,8 +29,6 @@ import java.util.concurrent.TimeUnit;
 @EnableDiscoveryClient
 @SpringBootApplication
 public class RibbonCustomerServiceApplication {
-
-
     public static void main(String[] args) {
         SpringApplication.run(RibbonCustomerServiceApplication.class, args);
     }
@@ -74,7 +72,6 @@ public class RibbonCustomerServiceApplication {
 
         return requestFactory;
     }
-
 
     /**
      * RestTemplate 客户端

@@ -44,6 +44,7 @@ public class RibbonController {
 
         //通过服务名称获取服务的请求地址
         log.info("DiscoveryClient: {}", discoveryClient.getClass().getName());
+        //"waiter-service" 是 spring.application.name中定义的名称
         List<String> list = discoveryClient.getInstances("waiter-service")
                 .stream()
                 .map(s -> {
