@@ -1,0 +1,15 @@
+server:
+  port: 0
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+    health:
+      show-details: always
+
+spring:
+  cloud:
+    zookeeper:
+      connect-string: 'localhost:2181'

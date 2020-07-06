@@ -1,0 +1,13 @@
+server:
+  port: 8006
+
+
+management:
+  endpoints:
+    health:
+      show-details: always
+
+spring:
+  cloud:
+    zookeeper:
+      connect-string: 'localhost:2181'
