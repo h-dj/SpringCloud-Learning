@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>cn.hdj</groupId>
-	<artifactId>zk-customer-service</artifactId>
+	<artifactId>consul-customer-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>RibbonCustomerService</name>
 	<description>Demo project for Spring Boot</description>
@@ -31,7 +31,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-zookeeper-discovery</artifactId>
+			<artifactId>spring-cloud-starter-consul-discovery</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>

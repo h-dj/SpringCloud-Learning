@@ -1,0 +1,14 @@
+server:
+  port: 8007
+
+management:
+  endpoints:
+    health:
+      show-details: always
+spring:
+  cloud:
+    consul:
+      discovery:
+        prefer-ip-address: true
+      host: 'localhost'
+      port: 8500

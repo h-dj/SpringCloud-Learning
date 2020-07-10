@@ -6,7 +6,7 @@ management:
   endpoints:
     health:
       show-details: always
-
+# 连接Zookeeper
 spring:
   cloud:
     zookeeper:

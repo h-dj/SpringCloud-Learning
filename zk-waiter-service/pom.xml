@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>cn.hdj</groupId>
-	<artifactId>euraka-waiter-service</artifactId>
+	<artifactId>zk-waiter-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>waiterService</name>
 	<description>waiter-service</description>
