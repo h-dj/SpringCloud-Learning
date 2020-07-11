@@ -1,0 +1,12 @@
+server:
+  port: 8008
+
+management:
+  endpoints:
+    health:
+      show-details: always
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 'localhost:8848'
