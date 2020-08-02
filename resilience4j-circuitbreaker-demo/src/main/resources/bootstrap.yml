@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: resilinece4j-customer-service
