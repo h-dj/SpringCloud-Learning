@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      discovery:
+        #spring.cloud.config.uri=http://localhost:8888
+        #使用服务发现的方式
+        enabled: true
+        service-id: config-service
+    consul:
+      discovery:
+        prefer-ip-address: true
+      host: localhost
+      port: 8500

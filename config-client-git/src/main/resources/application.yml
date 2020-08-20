@@ -1,0 +1,13 @@
+server:
+  port: 8989
+
+management:
+  endpoints:
+    health:
+      show-details: always
+    web:
+      exposure:
+        include: '*'
+
+order:
+  discount: 100

@@ -1,6 +1,0 @@
-
-spring:
-  application:
-    name: config-clients-git
-server:
-  port: 8601
