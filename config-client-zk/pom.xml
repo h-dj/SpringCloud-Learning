@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.hdj</groupId>
-    <artifactId>config-client-git</artifactId>
+    <artifactId>config-client-zk</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>config-client-git</name>
+    <name>config-client-zk</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -26,7 +26,7 @@
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
+            <artifactId>spring-cloud-starter-zookeeper-config</artifactId>
         </dependency>
 
         <dependency>

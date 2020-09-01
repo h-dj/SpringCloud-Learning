@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: config-client
+    consul:
+      discovery:
+        prefer-ip-address: true
+      host: localhost
+      port: 8500
